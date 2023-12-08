@@ -8,5 +8,6 @@ Mô tả dự án: Thiết kế 1 website quản lí công việc cho cty sản 
   - Điều chỉnh lịch trình: Điều chỉnh lịch trình khi có thay đổi trong yêu cầu hoặc ưu tiên công việc.
 + Yêu cầu giao diện website:
   - Dễ tiếp cận
+
 Tài nguyên sử dụng:
 - HTML, CSS, JavaScript
