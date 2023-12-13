@@ -1,5 +1,7 @@
 # ktpm
 Mô tả dự án: Thiết kế 1 website quản lí công việc cho cty sản xuất thực phẩm
++ Mục đích:
+  - 1 hệ thống giúp doanh nghiệp quản lí lịch trình, sắp xếp công việc cho nhân sự, hỗ trợ lên kế hoạch cho cty và giám sát tiến độ công việc.
 + Website cần có các chức năng:
   - Xác định ưu tiên công việc: Đánh giá mức độ quan trọng và ưu tiên của từng công việc để xác định thứ tự thực hiện.
   - Phân bổ công việc: Gán công việc cho các thành viên trong tổ chức dựa trên khả năng, kiến thức và tài nguyên có sẵn.
