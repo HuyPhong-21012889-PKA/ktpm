@@ -11,3 +11,4 @@ Mô tả dự án: Thiết kế 1 website quản lí công việc cho cty sản 
 
 Tài nguyên sử dụng:
 - HTML, CSS, JavaScript
+- SQL server
