@@ -13,6 +13,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    border: 10rem solid var(--green);
+}
+
 header {
     border-bottom: 0.1rem solid var(--liner);
 }
