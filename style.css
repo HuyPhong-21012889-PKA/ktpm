@@ -1,8 +1,28 @@
-body {
-    font-family: Arial, sans-serif;
+:root {
+    --green: #00D46E;
+    --liner: #F9F9F9;
 }
 
-#schedule {
-    max-width: 800px;
-    margin: 20px auto;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    border-bottom: 0.1rem solid var(--liner);
+}
+
+header .search-box {
+    max-width: 30rem;
+    border: 0.1rem solid var(--liner);
+}
+
+header .search-box input {
+    border: none;
+    outline: none;
 }
