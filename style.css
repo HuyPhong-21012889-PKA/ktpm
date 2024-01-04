@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#schedule {
+    max-width: 800px;
+    margin: 20px auto;
+}
