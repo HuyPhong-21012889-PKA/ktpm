@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Lịch Trình</title>
+</head>
+<body>
+
+    <div class="calendar">
+        <div class="header">
+            <h2>Lập Lịch Trình</h2>
+        </div>
+        <div class="calendar-container">
+            <div id="datepicker"></div>
+            <input type="time" id="timepicker" step="900"> <!-- Chọn thời gian với bước 15 phút -->
+            <button onclick="displaySchedule()">Hiển Thị Lịch Trình</button>
+            <div id="schedule"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="test.js"></script>
+</body>
+</html>
