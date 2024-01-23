@@ -106,7 +106,7 @@ CREATE TABLE `users` (
   `lastname` varchar(200) NOT NULL,
   `email` varchar(200) NOT NULL,
   `password` text NOT NULL,
-  `type` tinyint(1) NOT NULL DEFAULT 2 COMMENT '1 = admin, 2 = staff',
+  `type` tinyint(1) NOT NULL DEFAULT 2 COMMENT '1 = admin, 2 = manager, 3 = employee',
   `avatar` text NOT NULL DEFAULT 'no-image-available.png',
   `date_created` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -117,10 +117,10 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `password`, `type`, `avatar`, `date_created`) VALUES
 (1, 'Administrator', '', 'admin@admin.com', '0192023a7bbd73250516f069df18b500', 1, 'no-image-available.png', '2020-11-26 10:57:04'),
-(2, 'John', 'Smith', 'jsmith@sample.com', '1254737c076cf867dc53d60a0364f38e', 2, '1606978560_avatar.jpg', '2020-12-03 09:26:03'),
-(3, 'Claire', 'Blake', 'cblake@sample.com', '4744ddea876b11dcb1d169fadf494418', 3, '1606958760_47446233-clean-noir-et-gradient-sombre-image-de-fond-abstrait-.jpg', '2020-12-03 09:26:42'),
-(4, 'George', 'Wilson', 'gwilson@sample.com', 'd40242fb23c45206fadee4e2418f274f', 3, '1606963560_avatar.jpg', '2020-12-03 10:46:41'),
-(5, 'Mike', 'Williams', 'mwilliams@sample.com', '3cc93e9a6741d8b40460457139cf8ced', 3, '1606963620_47446233-clean-noir-et-gradient-sombre-image-de-fond-abstrait-.jpg', '2020-12-03 10:47:06');
+(2, 'John', 'Smith', 'h.phong@sample.com', '1254737c076cf867dc53d60a0364f38e', 2, '1606978560_avatar.jpg', '2020-12-03 09:26:03'),
+(3, 'Claire', 'Blake', 'n.manhhung@sample.com', '87cfe89dd6e63c2ae0a206cecc4c3b64', 3, '1606958760_47446233-clean-noir-et-gradient-sombre-image-de-fond-abstrait-.jpg', '2020-12-03 09:26:42'),
+(4, 'George', 'Wilson', 'n.huy@sample.com', 'b8dc042d8cf7deefb0ec6a264c930b02', 3, '1606963560_avatar.jpg', '2020-12-03 10:46:41'),
+(5, 'Mike', 'Williams', 't.binh@sample.com', '08413b9c876b4976053e6c3300708141', 3, '1606963620_47446233-clean-noir-et-gradient-sombre-image-de-fond-abstrait-.jpg', '2020-12-03 10:47:06');
 
 -- --------------------------------------------------------
 
